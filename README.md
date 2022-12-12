@@ -1,6 +1,10 @@
-## Дополнительные материалы для выполнения домашних заданий из блока "Введение в DevOps"
+8.2. Что такое DevOps. СI/СD_ Любимов
 
+Задание 1.
+https://github.com/Danila-Lyubimov/testrepos/blob/main/Снимок экрана от 2022-12-10 00-16-32.png
+https://github.com/Danila-Lyubimov/testrepos/blob/main/Снимок экрана от 2022-12-10 00-48-07.png
+https://github.com/Danila-Lyubimov/testrepos/blob/main/Снимок экрана от 2022-12-10 00-48-32.png
 
-- [Дополнительный материал для занятия "8.2. Что такое DevOps. СI/СD"](CICD/8.2-hw.md)
-
-- [Дополнительный материал для занятия "8.3. GitLab"](https://github.com/netology-code/sdvps-materials/tree/main/gitlab)
+Задание 2.
+https://github.com/Danila-Lyubimov/testrepos/blob/main/Снимок экрана от 2022-12-10 11-51-06.png
+https://github.com/Danila-Lyubimov/testrepos/blob/main/Снимок экрана от 2022-12-12 20-57-13.png
