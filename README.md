@@ -23,12 +23,13 @@ pipeline {
   }
    stage('Build') {
    steps {
-    sh 'CGO_ENABLED=0 GOOS=linux go build -a -installsuffix nocgo -o /app'
+    sh 'CGO_ENABLED=0 GOOS=linux go build -o outfile.go'
    }
   }
   stage('Push') {
    steps {
-    sh 'docker login ubuntu-bionic:8082 -u admin -p admin && docker push ubuntu-bionic:8082/hello-world:v$BUILD_NUMBER && docker logout'   }
+    sh 'curl -v -u admin:admin http://192.168.1.57:8081/repository/reponew/ --upload-file outfile.go'
+    }
   }
  }
 }
